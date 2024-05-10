@@ -1,0 +1,121 @@
+.Free_courses {
+  margin: 30px 130px;
+}
+.free_collections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.see_all {
+  font-size: 18px;
+  font-weight: 500;
+}
+.free_course_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 960px) and (max-width: 1190px) {
+  .Free_courses {
+    margin: 30px 60px;
+  }
+  .free_course_header h1 {
+    font-size: 30px;
+  }
+  .free_course_header .see_all {
+    font-size: 16px;
+  }
+}
+@media (min-width: 800px) and (max-width: 959px) {
+  .Free_courses {
+    margin: 30px 60px;
+  }
+  .free_course_header h1 {
+    font-size: 30px;
+  }
+  .free_course_header .see_all {
+    font-size: 16px;
+  }
+}
+@media (min-width: 600px) and (max-width: 799px) {
+  .Free_courses {
+    margin: 20px 20px;
+  }
+  .free_course_header h1 {
+    font-size: 25px;
+  }
+  .free_course_header .see_all {
+    font-size: 15px;
+  }
+  .free_collections {
+    gap: 30px;
+  }
+}
+@media (min-width: 500px) and (max-width: 599px) {
+  .Free_courses {
+    margin: 20px 80px;
+  }
+  .free_collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .free_course_header h1 {
+    font-size: 25px;
+  }
+  .free_course_header .see_all {
+    font-size: 15px;
+  }
+}
+@media (min-width: 330px) and (max-width: 499.9px) {
+  .Free_courses {
+    margin: 20px 35px;
+  }
+  .free_collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .free_course_header h1 {
+    font-size: 20px;
+  }
+  .free_course_header .see_all {
+    font-size: 12px;
+  }
+}
+@media (max-width: 329.9px) {
+  .Free_courses {
+    margin: 20px 20px;
+  }
+  .free_collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .free_course_header h1 {
+    font-size: 16px;
+  }
+  .free_course_header .see_all {
+    font-size: 12px;
+  }
+}
+/* @media(max-width: 449px) {
+  .Free_courses {
+    margin: 20px 40px;
+  }
+  .free_collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .free_course_header h1 {
+    font-size: 25px;
+  }
+  .free_course_header .see_all {
+    font-size: 15px;
+  }
+} */

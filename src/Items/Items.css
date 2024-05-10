@@ -1,0 +1,191 @@
+.item {
+  height: 330px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+.item_img {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+}
+.course_code {
+  font-size: 18px;
+  font-weight: 700;
+}
+.course_rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.course_rating {
+  font-size: 16px;
+  font-weight: 500;
+}
+.course_name {
+  font-size: 15px;
+  font-weight: 500;
+}
+@media (min-width: 960px) and (max-width: 1190px) {
+  .item {
+    height: 280px;
+    width: 190px;
+  }
+  .item_img {
+    height: 180px;
+    width: 180px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 800px) and (max-width: 959.9px) {
+  .item {
+    height: 230px;
+    width: 150px;
+  }
+  .item_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 600px) and (max-width: 799.9px) {
+  .item {
+    height: 200px;
+    width: 110px;
+  }
+  .item_img {
+    height: 110px;
+    width: 110px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 420px) and (max-width: 599.9px) {
+  .item {
+    height: 300px;
+    width: 170px;
+  }
+  .item_img {
+    height: 170px;
+    width: 170px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 390px) and (max-width: 419.9px) {
+  .item {
+    height: 250px;
+    width: 150px;
+  }
+  .item_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 330px) and (max-width: 389.9px) {
+  .item {
+    height: 220px;
+    width: 120px;
+  }
+  .item_img {
+    height: 120px;
+    width: 120px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 329.9px) {
+  .item {
+    height: 180px;
+    width: 100px;
+  }
+  .item_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+  }
+  .course_code {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .course_rating {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .course_name {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

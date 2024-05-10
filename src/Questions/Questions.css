@@ -1,0 +1,228 @@
+.questions_container {
+  margin: 30px 100px;
+}
+.questions_container_question {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.questions_container_answer {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  border: 1.7px solid black;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+.questions_container_ques_ans {
+  margin-top: 60px;
+}
+.questions_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question_time {
+  font-size: 24px;
+  padding: 2px 10px;
+  border: 3px solid black;
+}
+
+.back_button {
+  font-size: 40px;
+}
+.questions_container_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.questions_container_btn {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #e96f6fb2;
+  font-size: 17px;
+  color: white;
+
+  width: 250px;
+  height: 50px;
+  border-radius: 13px;
+  border: none;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .questions_container {
+    margin: 30px 40px;
+  }
+  .questions_container_question {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .questionscoursecode {
+    font-size: 25px;
+  }
+  .questions_container_answer {
+    width: 400px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1.7px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  .questions_container_ques_ans {
+    margin-top: 50px;
+  }
+  .questions_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .question_time {
+    font-size: 20px;
+    padding: 2px 8px;
+    border: 3px solid black;
+  }
+
+  .back_button {
+    font-size: 35px;
+  }
+  .questions_container_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .questions_container_btn {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #e96f6fb2;
+    font-size: 17px;
+    color: white;
+
+    width: 250px;
+    height: 50px;
+    border-radius: 13px;
+    border: none;
+  }
+}
+@media (min-width: 420px) and (max-width: 599.9px) {
+  .questions_container {
+    margin: 30px 10px;
+  }
+  .questions_container_question {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .questionscoursecode {
+    font-size: 20px;
+  }
+  .questions_container_answer {
+    width: 300px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1.7px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  .questions_container_ques_ans {
+    margin-top: 40px;
+  }
+  .questions_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .question_time {
+    font-size: 17px;
+    padding: 2px 8px;
+    border: 3px solid black;
+  }
+
+  .back_button {
+    font-size: 30px;
+  }
+  .questions_container_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .questions_container_btn {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #e96f6fb2;
+    font-size: 17px;
+    color: white;
+
+    width: 200px;
+    height: 35px;
+    border-radius: 13px;
+    border: none;
+  }
+}
+@media (max-width: 419.9px) {
+  .questions_container {
+    margin: 20px 10px;
+  }
+  .questions_container_question {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .questionscoursecode {
+    font-size: 17px;
+  }
+  .questions_container_answer {
+    width: 200px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1.7px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  .questions_container_ques_ans {
+    margin-top: 40px;
+  }
+  .questions_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .question_time {
+    font-size: 17px;
+    padding: 2px 8px;
+    border: 3px solid black;
+  }
+
+  .back_button {
+    font-size: 25px;
+  }
+  .questions_container_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .questions_container_btn {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #e96f6fb2;
+    font-size: 15px;
+    color: white;
+
+    width: 180px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+  }
+}

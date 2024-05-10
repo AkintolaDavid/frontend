@@ -1,13 +1,19 @@
 .signup_main {
-  display: flex; /* Enable flexbox */
+  /* display: flex;  */
   width: 100vw;
   height: 100vh;
   justify-content: center; /* Center horizontally */
   align-items: center;
 }
+.signup_backarrow {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
 .signup_main_container {
   background-color: #e96f6fb2;
-  width: 400px;
+  width: 380px;
   height: 700px;
   margin: 0 auto;
   display: flex;
@@ -69,7 +75,11 @@
   padding-left: 10px;
   border: none;
 }
-
+.submit_signup_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .submit_signup {
   height: 40px;
   width: 200px;
@@ -85,4 +95,110 @@
 .agree_text {
   font-size: 17px;
   font-weight: 500;
+}
+@media (min-width: 1px) and (max-width: 400px) {
+  .signup_main {
+    /* display: flex;  */
+    width: 100vw;
+    height: 100vh;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+  }
+  .signup_backarrow {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .signup_main_container {
+    background-color: #e96f6fb2;
+    width: 300px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+  }
+  .signup_text {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .signup_firstname_input {
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    padding-left: 10px;
+    border: none;
+    border: none;
+  }
+  .signup_lastname_input {
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    padding-left: 10px;
+    border: none;
+  }
+  .signup_phone_number_input {
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+  }
+  .signup_email_input {
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+  }
+  .signup_password_input {
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+  }
+  .signup_confirm_password_input {
+    height: 35px;
+    margin-left: 15px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+  }
+  .submit_signup_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .submit_signup {
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .signup_agree {
+    margin-top: 30px;
+  }
+  .agree_text {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
