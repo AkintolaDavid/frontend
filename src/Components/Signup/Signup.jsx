@@ -80,7 +80,7 @@ export const Signup = () => {
       if (response.ok) {
         // Signup successful, you can redirect the user or show a success message
         alert("User signed up successfully!");
-        navigate("/signin");
+        navigate("/");
       } else {
         // Signup failed, handle error
         console.error("Signup failed:", response.statusText);
@@ -90,7 +90,7 @@ export const Signup = () => {
     }
   };
   const handleGoBack = () => {
-    navigate("/signin"); // Go back to Course Display
+    navigate("/"); // Go back to Course Display
   };
   return (
     <div className="signup_main">
@@ -101,6 +101,7 @@ export const Signup = () => {
         <span className="signup_text">SIGN UP</span>
         <form onSubmit={handleSubmit}>
           <div className="signup_firstname">
+            <span> First name</span>
             <input
               type="text"
               placeholder="First Name"
@@ -111,6 +112,7 @@ export const Signup = () => {
             />
           </div>
           <div className="signup_lastname">
+            <span> Last name</span>
             <input
               type="text"
               placeholder="Last Name"
@@ -122,6 +124,7 @@ export const Signup = () => {
           </div>
 
           <div className="signup_phone_number">
+            <span> Phone Number</span>
             <input
               type="number"
               placeholder="Enter Phone Number"
@@ -132,6 +135,7 @@ export const Signup = () => {
             />
           </div>
           <div className="signup_email">
+            <span> E-mail</span>
             <input
               type="email"
               placeholder="E-mail"
@@ -142,6 +146,7 @@ export const Signup = () => {
             />
           </div>
           <div className="signup_password">
+            <span>Password</span>
             <input
               type="password"
               placeholder="Enter Password"
@@ -152,6 +157,7 @@ export const Signup = () => {
             />
           </div>
           <div className="signup_confirm_password">
+            <span>Confirm Password</span>
             <input
               type="password"
               placeholder="Confirm Password"

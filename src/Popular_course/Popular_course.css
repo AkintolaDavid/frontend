@@ -1,5 +1,5 @@
 .Popular_courses {
-  margin: 30px 130px;
+  margin: 0px 130px;
 }
 .popular_collections {
   display: grid;
@@ -17,7 +17,7 @@
 }
 @media (min-width: 960px) and (max-width: 1190px) {
   .Popular_courses {
-    margin: 30px 60px;
+    margin: 0px 60px;
   }
   .popular_course_header h1 {
     font-size: 30px;
@@ -28,7 +28,7 @@
 }
 @media (min-width: 800px) and (max-width: 959px) {
   .Popular_courses {
-    margin: 30px 60px;
+    margin: 0px 60px;
   }
   .popular_course_header h1 {
     font-size: 30px;
@@ -39,7 +39,7 @@
 }
 @media (min-width: 600px) and (max-width: 799px) {
   .Popular_courses {
-    margin: 20px 20px;
+    margin: 0px 20px;
   }
   .popular_course_header h1 {
     font-size: 25px;
@@ -50,7 +50,7 @@
 }
 @media (min-width: 500px) and (max-width: 599px) {
   .Popular_courses {
-    margin: 20px 80px;
+    margin: 0px 80px;
   }
   .popular_collections {
     display: grid;
@@ -68,7 +68,7 @@
 
 @media (min-width: 330px) and (max-width: 499px) {
   .Popular_courses {
-    margin: 20px 40px;
+    margin: 0px 40px;
   }
   .popular_collections {
     display: grid;
@@ -85,7 +85,7 @@
 }
 @media (max-width: 329.9px) {
   .Popular_courses {
-    margin: 20px 20px;
+    margin: 0px 20px;
   }
   .popular_collections {
     display: grid;

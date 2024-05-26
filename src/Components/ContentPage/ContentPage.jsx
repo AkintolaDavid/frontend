@@ -34,7 +34,7 @@ export const ContentPage = (props) => {
   const initials = getInitials(userFullName); // Call the getInitials function
   const handleSignOut = () => {
     signOut(); // Call the signOut function from context
-    Navigate("/signin"); // Redirect to sign-in page
+    Navigate("/"); // Redirect to sign-in page
   };
   // const { isOpen, onOpen, onClose } = useDisclosure();
   const finalRef = React.useRef(null);
@@ -105,25 +105,27 @@ export const ContentPage = (props) => {
 
   return (
     <>
-      <div className="userdetail">
-        <div className="userdetail_left">
-          <div className="userprofileID">{initials}</div>
-          <span className="username_detail">Hi, {userFullName}</span>
-        </div>
-        <div className="userdetail_right">
-          <div className="usernotification">
-            <IoNotificationsSharp onClick={() => handleNotification()} />
-            <span className="notification-dot"></span>
+      <div className="user_detail_container">
+        <div className="userdetail">
+          <div className="userdetail_left">
+            <div className="userprofileID">{initials}</div>
+            <span className="username_detail">Hi, {userFullName}</span>
           </div>
-          {/* <div className="usermessage">
+          <div className="userdetail_right">
+            <div className="usernotification">
+              <IoNotificationsSharp onClick={() => handleNotification()} />
+              <span className="notification-dot"></span>
+            </div>
+            {/* <div className="usermessage">
             <FaMessage onClick={() => handleMessage()} />
             <span className="message-dot"></span>
           </div> */}
-          <div className="usersignout">
-            <IoLogOutOutline
-              onClick={handleSignOut}
-              style={{ fontSize: "25px" }}
-            />
+            <div className="usersignout">
+              <IoLogOutOutline
+                onClick={handleSignOut}
+                style={{ fontSize: "25px" }}
+              />
+            </div>
           </div>
         </div>
       </div>
