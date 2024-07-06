@@ -1,9 +1,7 @@
 {
   "name": "korede_product",
   "version": "0.1.0",
-  "environment": {
-    "BACKEND_URL": "https://server-jv2n.onrender.com/"
-  },
+  "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",

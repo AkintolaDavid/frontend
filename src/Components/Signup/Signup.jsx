@@ -10,7 +10,9 @@ export const Signup = () => {
   const navigate = useNavigate();
   useEffect(() => {
     const fetchUsers = async () => {
-      const response = await fetch("/api/users"); // Replace with actual route if created
+      const response = await fetch(
+        "https://server-5xl9.onrender.com/api/users"
+      ); // Replace with actual route if created
       const fetchedUsers = await response.json();
       setUsers(fetchedUsers);
     };
@@ -70,13 +72,16 @@ export const Signup = () => {
     }
 
     try {
-      const response = await fetch("/api/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://server-5xl9.onrender.com/api/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       if (response.ok) {
         // Signup successful, you can redirect the user or show a success message
         alert("User signed up successfully!");

@@ -27,13 +27,16 @@ export const LoginPage = () => {
   }, []);
   const handleLogin = async () => {
     try {
-      const response = await fetch("/api/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ phoneNumber, password }),
-      });
+      const response = await fetch(
+        "https://server-5xl9.onrender.com/api/signin",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ phoneNumber, password }),
+        }
+      );
 
       if (response.ok) {
         // Login successful, redirect to landing page
