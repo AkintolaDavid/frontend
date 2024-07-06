@@ -5,7 +5,7 @@ import { Signup } from "./Components/Signup/Signup";
 import { ContentPage } from "./Components/ContentPage/ContentPage";
 import { Course_page } from "./Course_page/Course_page";
 import { Coursecategory } from "./Coursecategory/Coursecategory";
-import { Landingpage } from "./Components/Landingpage/Landingpage";
+import { Landingpage } from "./Components/LandingPage/LandingPage";
 import Question from "./Questions/Question";
 function App() {
   return (
