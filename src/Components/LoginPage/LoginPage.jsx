@@ -28,7 +28,7 @@ export const LoginPage = () => {
   const handleLogin = async () => {
     try {
       const response = await fetch(
-        "https://server-5xl9.onrender.com/api/signin",
+        "https://server-6mme.onrender.com/api/signin",
         {
           method: "POST",
           headers: {

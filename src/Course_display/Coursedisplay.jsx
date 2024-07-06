@@ -14,7 +14,7 @@ export const Coursedisplay = (props) => {
       console.log(course.code);
 
       const response = await fetch(
-        `https://server-5xl9.onrender.com/api/questions/${course.code}`
+        `https://server-6mme.onrender.com/api/questions/${course.code}`
       );
       if (!response.ok) {
         throw new Error(`Error fetching questions: ${response.statusText}`);

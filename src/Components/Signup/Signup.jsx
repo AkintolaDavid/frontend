@@ -11,7 +11,7 @@ export const Signup = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       const response = await fetch(
-        "https://server-5xl9.onrender.com/api/users"
+        "https://server-6mme.onrender.com/api/users"
       ); // Replace with actual route if created
       const fetchedUsers = await response.json();
       setUsers(fetchedUsers);
@@ -73,7 +73,7 @@ export const Signup = () => {
 
     try {
       const response = await fetch(
-        "https://server-5xl9.onrender.com/api/signup",
+        "https://server-6mme.onrender.com/api/signup",
         {
           method: "POST",
           headers: {
