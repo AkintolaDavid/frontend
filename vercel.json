@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "frontend/build" }
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "https://server-5xl9.onrender.com/api/$1" }
+  ]
+}
