@@ -109,8 +109,8 @@ export const Signup = () => {
             <span> First name</span>
             <input
               type="text"
-              placeholder="First Name"
               className="signup_firstname_input"
+              placeholder="First Name"
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}

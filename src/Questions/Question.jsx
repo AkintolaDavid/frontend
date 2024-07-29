@@ -38,8 +38,8 @@ const Questions = () => {
     navigate("/all"); // Go back to Course Display
   };
 
-  const [minutes, setMinutes] = useState(0); // Initial countdown duration (2 minutes)
-  const [seconds, setSeconds] = useState(3);
+  const [minutes, setMinutes] = useState(3); // Initial countdown duration (2 minutes)
+  const [seconds, setSeconds] = useState(0);
   const handleSubmitAnswers = () => {
     const score = calculateScore();
     alert(`Your score: ${score} / ${questions.length}`);
